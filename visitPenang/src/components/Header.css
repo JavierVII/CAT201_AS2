@@ -2,13 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2d3e50; /* 深蓝色背景 */
+    background-color: #6e30d8; /* 背景颜色 */
     padding: 1rem 2rem;
     color: white;
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
