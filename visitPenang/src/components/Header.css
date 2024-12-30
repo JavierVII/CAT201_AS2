@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d3e50; /* 深蓝色背景 */
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none; /* 去掉默认列表样式 */
+    display: flex;    /* 使用 Flexbox 布局 */
+    gap: 1.5rem;      /* 每个导航链接之间的间距 */
+    margin: 0;
+}
+
+.nav-links li a {
+    color: white;          /* 白色文字 */
+    text-decoration: none; /* 去掉下划线 */
+    font-size: 1rem;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline; /* 鼠标悬停时添加下划线 */
+}
