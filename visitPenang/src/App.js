@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import TouristSpots from "./components/TouristSpots";
 import "./App.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         <div className="App">
             <Header />
             <HeroSection />
+            <TouristSpots />
             <main>
                 <section id="home">
                     <h1>欢迎来到槟城</h1>
