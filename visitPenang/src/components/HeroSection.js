@@ -10,11 +10,7 @@ const HeroSection = () => {
                 您的浏览器不支持视频播放。
             </video>
 
-            {/* 文字内容 */}
-            <div className="hero-content">
-                <h1>欢迎来到槟城</h1>
-                <p>探索这座美丽岛屿的魅力、文化与美食。</p>
-            </div>
+
         </div>
     );
 };
