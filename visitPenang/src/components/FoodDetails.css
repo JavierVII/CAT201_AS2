@@ -5,6 +5,7 @@
     padding: 2rem;
     text-align: center;
     background: linear-gradient(180deg, #ffffff, #f9f4e7);
+    min-height: 100vh;
 }
 
 /* 标题样式 */
