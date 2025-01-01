@@ -1,19 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./TouristSpots.css";
 
 const TouristSpots = () => {
     const spots = [
         {
+            id: "penang-hill",
             title: "槟城升旗山",
             description: "享受槟城的全景，体验丰富的历史和自然景观。",
             image: "/images/penang-hill.jpg"
         },
         {
+            id: "george-town",
             title: "槟城乔治市",
             description: "探索槟城的文化遗产区，欣赏美丽的街头艺术。",
             image: "/images/george-town.jpg"
         },
         {
+            id: "kek-lok-si",
             title: "槟城极乐寺",
             description: "参观槟城最著名的佛教寺庙之一，享受宁静的氛围。",
             image: "/images/kek-lok-si-temple.jpg"
@@ -25,12 +29,14 @@ const TouristSpots = () => {
             <h2>槟城旅游景点</h2>
             <div className="spots-list">
                 {spots.map((spot) => (
-                    <div className="spot-card" key={spot.title}>
-                        <img src={spot.image} alt={spot.title} />
-                        <div className="spot-info">
-                            <h3>{spot.title}</h3>
-                            <p>{spot.description}</p>
-                        </div>
+                    <div className="spot-card" key={spot.id}>
+                        <Link to={`/tourist-spots/${spot.id}`}>
+                            <img src={spot.image} alt={spot.title} />
+                            <div className="spot-info">
+                                <h3>{spot.title}</h3>
+                                <p>{spot.description}</p>
+                            </div>
+                        </Link>
                     </div>
                 ))}
             </div>

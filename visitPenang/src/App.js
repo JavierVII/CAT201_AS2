@@ -1,32 +1,31 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
+import Home from "./components/Home";
 import TouristSpots from "./components/TouristSpots";
 import FoodAndBeverages from "./components/FoodAndBeverages";
 import Hotels from "./components/Hotels";
+import TouristSpotDetails from "./components/TouristSpotDetails";
+import FoodDetails from "./components/FoodDetails";
+import HotelDetails from "./components/HotelDetails";
 import "./App.css";
 
 function App() {
     return (
-        <div className="App">
-            <Header />
-            <HeroSection />
-            <main>
-                <section id="home">
-                    <h1>欢迎来到槟城</h1>
-                    <p>探索这座美丽的岛屿及其多样的文化与美食。</p>
-                </section>
-                <section id="tourist-spots">
-                    <TouristSpots />
-                </section>
-                <section id="food-and-beverages">
-                    <FoodAndBeverages />
-                </section>
-                <section id="hotels">
-                    <Hotels />
-                </section>
-            </main>
-        </div>
+        <Router>
+            <div className="App">
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/tourist-spots" element={<TouristSpots />} />
+                    <Route path="/food-and-beverages" element={<FoodAndBeverages />} />
+                    <Route path="/hotels" element={<Hotels />} />
+                    <Route path="/tourist-spots/:spotId" element={<TouristSpotDetails />} />
+                    <Route path="/food-and-beverages/:foodId" element={<FoodDetails />} />
+                    <Route path="/hotels/:hotelId" element={<HotelDetails />} />
+                </Routes>
+            </div>
+        </Router>
     );
 }
 

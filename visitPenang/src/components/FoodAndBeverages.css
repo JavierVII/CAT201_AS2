@@ -1,13 +1,13 @@
 .food-and-beverages {
     padding: 3rem 2rem;
     text-align: center;
-    background: linear-gradient(180deg, #ffffff, #f9f4e7); /* 淡黄色背景 */
+    background: linear-gradient(180deg, #ffffff, #f9f4e7);
 }
 
 .food-and-beverages h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #6c4f3d; /* 棕色文字 */
+    color: #6c4f3d;
 }
 
 .food-list {

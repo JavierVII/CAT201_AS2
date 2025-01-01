@@ -1,0 +1,33 @@
+/* FoodDetails.css */
+
+/* 设置整体布局 */
+.food-details {
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(180deg, #ffffff, #f9f4e7);
+}
+
+/* 标题样式 */
+.food-details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #6c4f3d;
+}
+
+/* 图片样式 */
+.food-details img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+/* 文字描述 */
+.food-details p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}

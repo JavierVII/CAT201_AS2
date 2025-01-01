@@ -1,7 +1,7 @@
 .hotels {
     padding: 3rem 2rem;
     text-align: center;
-    background: linear-gradient(to bottom, #f9f4e7, #ffc1c1); /* 淡粉色渐变 */
+    background: linear-gradient(to bottom, #f9f4e7, #ffc1c1);
 }
 
 .hotels h2 {
