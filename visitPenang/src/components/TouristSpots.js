@@ -24,8 +24,8 @@ const TouristSpots = () => {
         <section className="tourist-spots">
             <h2>槟城旅游景点</h2>
             <div className="spots-list">
-                {spots.map((spot, index) => (
-                    <div className="spot-card" key={index}>
+                {spots.map((spot) => (
+                    <div className="spot-card" key={spot.title}>
                         <img src={spot.image} alt={spot.title} />
                         <div className="spot-info">
                             <h3>{spot.title}</h3>
