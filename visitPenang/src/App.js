@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import TouristSpots from "./components/TouristSpots";
 import FoodAndBeverages from "./components/FoodAndBeverages";
+import Hotels from "./components/Hotels";
 import "./App.css";
 
 function App() {
@@ -21,10 +22,12 @@ function App() {
                 <section id="food-and-beverages">
                     <FoodAndBeverages />
                 </section>
+                <section id="hotels">
+                    <Hotels />
+                </section>
             </main>
         </div>
     );
 }
 
 export default App;
-

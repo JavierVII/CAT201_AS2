@@ -1,16 +1,16 @@
-.food-and-beverages {
+.hotels {
     padding: 3rem 2rem;
     text-align: center;
-    background: linear-gradient(180deg, #ffffff, #f9f4e7); /* 淡黄色背景 */
+    background: linear-gradient(to bottom, #f9f4e7, #ffc1c1); /* 淡粉色渐变 */
 }
 
-.food-and-beverages h2 {
+.hotels h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #6c4f3d; /* 棕色文字 */
+    color: #2d3e50;
 }
 
-.food-list {
+.hotels-list {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -18,7 +18,7 @@
     margin: 0 auto;
 }
 
-.food-card {
+.hotel-card {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
@@ -30,43 +30,43 @@
     align-items: center;
 }
 
-.food-card img {
+.hotel-card img {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
 
-.food-card:hover {
+.hotel-card:hover {
     transform: translateY(-10px);
 }
 
-.food-info {
+.hotel-info {
     padding: 1rem;
     text-align: center;
 }
 
-.food-info h3 {
+.hotel-info h3 {
     font-size: 1.5rem;
-    color: #4a3c2f;
+    color: #333;
     margin-bottom: 1rem;
 }
 
-.food-info p {
+.hotel-info p {
     font-size: 1rem;
     color: #777;
 }
 
 /* 响应式设计 */
 @media (max-width: 768px) {
-    .food-card {
+    .hotel-card {
         width: 100%;
     }
 
-    .food-list {
+    .hotels-list {
         gap: 1rem;
     }
 
-    .food-card img {
+    .hotel-card img {
         height: 250px;
     }
 }
