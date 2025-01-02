@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import "./TouristSpotDetails.css";  // 引入CSS文件
+import "./TouristSpotDetails.css"; // 引入CSS文件
 
 const TouristSpotDetails = () => {
     const { spotId } = useParams();
@@ -20,6 +20,21 @@ const TouristSpotDetails = () => {
             title: "槟城极乐寺",
             image: "/images/kek-lok-si-temple.jpg",
             description: "槟城极乐寺是东南亚最大的佛教寺庙之一，提供一个宁静的氛围和美丽的景观。"
+        },
+        "nyonya-museum": {
+            title: "槟城娘惹博物馆",
+            image: "/images/nyonya-museum.jpg",
+            description: "槟城娘惹博物馆展示了娘惹文化的丰富遗产，是一个必看的景点，拥有精致的装饰和历史文物。"
+        },
+        "chew-jetty": {
+            title: "姓周桥",
+            image: "/images/chew-jetty.jpg",
+            description: "姓周桥是槟城最古老的水上村落之一，您可以体验传统的水上人家生活方式。"
+        },
+        "batu-feringgi": {
+            title: "巴都丁宜",
+            image: "/images/batu-feringgi.jpg",
+            description: "巴都丁宜以其美丽的沙滩和水上活动闻名，是一个放松和享受海景的理想场所。"
         }
     };
 

@@ -6,9 +6,9 @@ const Header = () => {
     const [hoveredMenu, setHoveredMenu] = useState(null);
 
     const menuData = {
-        "Tourist Spots": ["Penang Hill", "George Town", "Kek Lok Si"],
-        "Food and Beverages": ["Asam Laksa", "Char Kuey Teow", "Nasi Lemak"], // 修改键值
-        "Hotels": ["Shangri-La Rasa Sayang", "Eastern and Oriental Hotel", "Bayview Hotel"] // 统一格式
+        "Tourist Spots": ["Penang Hill", "George Town", "Kek Lok Si","Nyonya Museum","Chew Jetty","Batu Feringgi"],
+        "Food and Beverages": ["Asam Laksa", "Char Kuey Teow", "Nasi Lemak","Teochew Cendol","Curry Noodles","Teh Tarik"], // 修改键值
+        "Hotels": ["Shangri-La Rasa Sayang", "Eastern and Oriental Hotel", "Bayview Hotel","Hilton Doubletree Resort","George Hotel","Macalister Mansion"] // 统一格式
     };
 
     return (

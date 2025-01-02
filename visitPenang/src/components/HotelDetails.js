@@ -9,17 +9,32 @@ const HotelDetails = () => {
         "shangri-la-rasa-sayang": {
             title: "槟城香格里拉沙洋度假村",
             image: "/images/shangri-la-hotel.jpg",
-            description: "槟城香格里拉沙洋度假村是一个豪华的海滨度假村，提供世界一流的设施与服务，包括宽敞的客房、多个餐饮选择和一个壮丽的海滩。"
+            description: "豪华度假村，享受宁静与舒适，拥有多个餐厅、游泳池和水疗中心。"
         },
         "eastern-and-oriental-hotel": {
             title: "槟城东方大酒店",
             image: "/images/eastern-and-oriental-hotel.jpg",
-            description: "槟城东方大酒店是历史悠久的豪华酒店，位于乔治市核心地段，提供优雅的住宿环境和一流的服务。"
+            description: "历史悠久的酒店，融合了现代与传统，提供豪华的住宿体验和完美的服务。"
         },
         "bayview-hotel": {
             title: "槟城湾景酒店",
             image: "/images/bayview-hotel.jpg",
-            description: "槟城湾景酒店位于巴都丁宜海滩，是一个现代化的酒店，适合家庭出游，提供多种设施和优质服务。"
+            description: "俯瞰槟城湾的美丽景色，提供豪华的住宿和各种娱乐设施。"
+        },
+        "hilton-doubletree-resort": {
+            title: "希尔顿逸林酒店",
+            image: "/images/hilton-doubleTree-resort.jpg",
+            description: "现代化的商务酒店，提供便利的设施和优质的服务。"
+        },
+        "george-hotel": {
+            title: "乔治酒店",
+            image: "/images/george-hotel.jpg",
+            description: "充满历史感的酒店，位于乔治市中心，便于探索槟城的文化和历史。"
+        },
+        "macalister-mansion": {
+            title: "麦卡利斯特庄园酒店",
+            image: "/images/macalister-mansion.jpg",
+            description: "优雅的庄园酒店，提供独特的住宿体验和豪华的设施。"
         }
     };
 
