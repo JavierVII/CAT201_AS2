@@ -6,38 +6,38 @@ const Hotels = ({ filter }) => {
     const hotels = [
         {
             id: "shangri-la-rasa-sayang",
-            title: "槟城香格里拉沙洋度假村",
-            description: "豪华度假村，享受宁静与舒适。",
+            title: "Shangri-La's Rasa Sayang Resort & Spa",
+            description: "A luxurious resort offering tranquility and comfort.",
             image: "/images/shangri-la-hotel.jpg"
         },
         {
             id: "eastern-and-oriental-hotel",
-            title: "槟城东方大酒店",
-            description: "历史悠久的酒店，融合了现代与传统。",
+            title: "Eastern & Oriental Hotel,",
+            description:"A historic hotel that blends modernity with tradition.",
             image: "/images/eastern-and-oriental-hotel.jpg"
         },
         {
             id: "bayview-hotel",
-            title: "槟城湾景酒店",
-            description: "俯瞰槟城湾的美丽景色，提供豪华的住宿体验。",
+            title: "Bayview Hotel",
+            description: "Overlooking the stunning views of Penang Bay, offering a luxurious stay experience.",
             image: "/images/bayview-hotel.jpg"
         },
         {
             id: "hilton-doubletree-resort",
-            title: "希尔顿逸林酒店",
-            description: "现代化的商务酒店，提供便利的设施。",
+            title: "DoubleTree by Hilton Hotel",
+            description: "A modern business hotel offering convenient amenities.",
             image: "/images/hilton-doubletree-resort.jpg"
         },
         {
             id: "george-hotel",
-            title: "乔治酒店",
-            description: "充满历史感的酒店，位于乔治市中心。",
+            title: "The George Hotel",
+            description: "A historic hotel located in the heart of George Town.",
             image: "/images/george-hotel.jpg"
         },
         {
             id: "macalister-mansion",
-            title: "麦卡利斯特庄园酒店",
-            description: "优雅的庄园酒店，享受独特的住宿体验。",
+            title: "McAllister Manor Hotel",
+            description: "An elegant manor hotel, offering a unique lodging experience.",
             image: "/images/macalister-mansion.jpg"
         }
     ];
@@ -49,7 +49,7 @@ const Hotels = ({ filter }) => {
 
     return (
         <section className="hotels">
-            <h2>槟城酒店</h2>
+            <h2>Penang Hotel</h2>
             <div className="hotels-list">
                 {filteredHotels.map((hotel) => (
                     <div className="hotel-card" key={hotel.id}>

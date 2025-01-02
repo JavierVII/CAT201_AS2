@@ -6,38 +6,38 @@ const TouristSpots = ({ filter }) => {
     const spots = [
         {
             id: "penang-hill",
-            title: "槟城升旗山",
-            description: "享受槟城的全景，体验丰富的历史和自然景观。",
+            title: "Penang Hill",
+            description: "Enjoy the panoramic views of Penang, and experience its rich history and natural landscapes.",
             image: "/images/penang-hill.jpg"
         },
         {
             id: "george-town",
-            title: "槟城乔治市",
-            description: "探索槟城的文化遗产区，欣赏美丽的街头艺术。",
+            title: "George Town",
+            description: "Explore Penang's cultural heritage zone and admire the beautiful street art.",
             image: "/images/george-town.jpg"
         },
         {
             id: "kek-lok-si",
-            title: "槟城极乐寺",
-            description: "参观槟城最著名的佛教寺庙之一，享受宁静的氛围。",
+            title: "Kek Lok Si Temple",
+            description: "Visit one of Penang's most famous Buddhist temples and enjoy the tranquil atmosphere.",
             image: "/images/kek-lok-si-temple.jpg"
         },
         {
             id: "nyonya-museum",
-            title: "槟城娘惹博物馆",
-            description: "了解槟城独特的娘惹文化和历史。",
+            title: "Pinang Peranakan Mansion",
+            description: "Learn about Penang's unique Peranakan culture and history.",
             image: "/images/nyonya-museum.jpg"
         },
         {
             id: "chew-jetty",
-            title: "姓周桥",
-            description: "体验槟城水上木屋村落的传统生活。",
+            title: "Zhou Bridge",
+            description: "Experience the traditional life of Penang's water village with wooden stilt houses.",
             image: "/images/chew-jetty.jpg"
         },
         {
             id: "batu-feringgi",
-            title: "巴都丁宜",
-            description: "放松身心，享受槟城最著名的海滩之一。",
+            title: "Batu Ferringhi",
+            description: "Relax and unwind at one of Penang's most famous beaches.",
             image: "/images/batu-feringgi.jpg"
         }
     ];
@@ -49,7 +49,7 @@ const TouristSpots = ({ filter }) => {
 
     return (
         <section className="tourist-spots">
-            <h2>槟城旅游景点</h2>
+            <h2>Penang Tourist Attractions</h2>
             <div className="spots-list">
                 {filteredSpots.map((spot) => (
                     <div className="spot-card" key={spot.id}>

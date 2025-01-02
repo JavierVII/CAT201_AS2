@@ -6,38 +6,38 @@ const FoodAndBeverages = ({ filter }) => {
     const foods = [
         {
             id: "asam-laksa",
-            title: "槟城叻沙",
-            description: "槟城叻沙是槟城的代表性美食之一，汤底浓郁、酸辣可口。",
+            title: "asam-laksa",
+            description: "Penang Laksa is a vibrant and tangy fish-based noodle soup, celebrated for its rich, spicy broth.",
             image: "/images/penang-laksa.jpg"
         },
         {
             id: "char-kway-teow",
-            title: "炒粿条",
-            description: "炒粿条是槟城的经典街头美食，米粉、蛋和虾的完美融合。",
+            title: "char-kway-teow",
+            description: "Fried kuey teow is a classic street food in Penang, a perfect blend of rice noodles, egg and prawns.",
             image: "/images/char-kway-teow.jpg"
         },
         {
             id: "nasi-lemak",
-            title: "椰浆饭",
-            description: "椰浆饭是马来西亚的传统美食，搭配香浓的椰浆和配菜。",
+            title: "nasi-lemak",
+            description: "Coconut rice is a traditional Malaysian dish served with flavourful coconut milk and side dishes.",
             image: "/images/nasi-lemak.jpg"
         },
         {
             id: "teochew-cendol",
-            title: "潮州煎蕊",
-            description: "这道传统的小吃以米粉为基础，配上浓郁的汤底，口感独特。",
+            title: "teochew-cendol",
+            description: "This traditional snack is based on rice vermicelli with a rich soup base.",
             image: "/images/teochew-cendol.jpg"
         },
         {
             id: "curry-noodles",
-            title: "咖喱面",
-            description: "槟城的咖喱面是不可错过的美食，香辣的咖喱和滑嫩的面条相得益彰。",
+            title: "curry-noodles",
+            description: "Penang's curry noodles are a must-try delicacy, with the spicy curry complementing the smooth and tender noodles.",
             image: "/images/curry-noodles.jpg"
         },
         {
             id: "teh-tarik",
-            title: "拉茶",
-            description: "槟城的拉茶有着独特的味道，奶香与茶香的完美结合，暖胃又解渴。",
+            title: "teh-tarik",
+            description: "Penang's laksa has a unique flavour, a perfect combination of milk and tea, warming the stomach and quenching the thirst.",
             image: "/images/teh-tarik.jpg"
         }
     ];
@@ -49,7 +49,7 @@ const FoodAndBeverages = ({ filter }) => {
 
     return (
         <section className="food-and-beverages">
-            <h2>槟城美食与饮品</h2>
+            <h2>Penang Food & Drink</h2>
             <div className="food-list">
                 {filteredFoods.map((food) => (
                     <div className="food-card" key={food.id}>
