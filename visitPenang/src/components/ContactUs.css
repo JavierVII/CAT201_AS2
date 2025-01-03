@@ -1,0 +1,21 @@
+.emergency-contacts {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.emergency-contacts h2 {
+    color: #d9534f;
+}
+
+.emergency-contacts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.emergency-contacts li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
