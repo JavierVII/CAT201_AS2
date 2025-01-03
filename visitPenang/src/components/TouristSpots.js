@@ -18,19 +18,19 @@ const TouristSpots = ({ filter }) => {
         },
         {
             id: "kek-lok-si",
-            title: "Kek Lok Si Temple",
+            title: "kek-lok-si",
             description: "Visit one of Penang's most famous Buddhist temples and enjoy the tranquil atmosphere.",
             image: "/images/kek-lok-si-temple.jpg"
         },
         {
             id: "nyonya-museum",
-            title: "Pinang Peranakan Mansion",
+            title: "nyonya-museum",
             description: "Learn about Penang's unique Peranakan culture and history.",
             image: "/images/nyonya-museum.jpg"
         },
         {
             id: "chew-jetty",
-            title: "Zhou Bridge",
+            title: "chew-jetty",
             description: "Experience the traditional life of Penang's water village with wooden stilt houses.",
             image: "/images/chew-jetty.jpg"
         },

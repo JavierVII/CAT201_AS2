@@ -79,7 +79,7 @@ const FoodDetails = () => {
                     <p>{food.description}</p>
                 </div>
             ) : (
-                <p>未找到相关美食信息。</p>
+                <p>No relevant food information found.</p>
             )}
         </div>
     );

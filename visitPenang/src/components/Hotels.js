@@ -6,7 +6,7 @@ const Hotels = ({ filter }) => {
     const hotels = [
         {
             id: "shangri-la-rasa-sayang",
-            title: "Shangri-La's Rasa Sayang Resort & Spa",
+            title: "shangri-la-rasa-sayang",
             description: "A luxurious resort offering tranquility and comfort.",
             image: "/images/shangri-la-hotel.jpg"
         },
@@ -24,13 +24,13 @@ const Hotels = ({ filter }) => {
         },
         {
             id: "hilton-doubletree-resort",
-            title: "DoubleTree by Hilton Hotel",
+            title: "Hilton-doubletree-resort",
             description: "A modern business hotel offering convenient amenities.",
             image: "/images/hilton-doubletree-resort.jpg"
         },
         {
             id: "george-hotel",
-            title: "The George Hotel",
+            title: "George Hotel",
             description: "A historic hotel located in the heart of George Town.",
             image: "/images/george-hotel.jpg"
         },

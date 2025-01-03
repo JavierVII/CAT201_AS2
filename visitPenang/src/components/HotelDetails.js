@@ -7,34 +7,34 @@ const HotelDetails = () => {
 
     const hotelDetails = {
         "shangri-la-rasa-sayang": {
-            title: "槟城香格里拉沙洋度假村",
+            title: "Shangri-la-rasa-sayang",
             image: "/images/shangri-la-hotel.jpg",
-            description: "豪华度假村，享受宁静与舒适，拥有多个餐厅、游泳池和水疗中心。"
+            description: "Shangri-La Rasa Sayang Resort & Spa, located on Batu Ferringhi Beach in Penang, Malaysia, is a luxurious five-star resort that blends modern elegance with traditional Malay architecture. Surrounded by lush tropical gardens, the resort offers spacious and comfortable accommodations, world-class dining options, a luxurious spa, and an infinity pool. Whether for a family getaway or a romantic retreat, the resort provides guests with an unforgettable experience through its impeccable service and stunning beachfront setting."
         },
         "eastern-and-oriental-hotel": {
-            title: "槟城东方大酒店",
+            title: "Eastern-and-oriental-hotel",
             image: "/images/eastern-and-oriental-hotel.jpg",
-            description: "历史悠久的酒店，融合了现代与传统，提供豪华的住宿体验和完美的服务。"
+            description: "The Eastern & Oriental Hotel, located in the heart of George Town, Penang, is a historic luxury hotel that embodies timeless elegance and colonial charm. Established in 1885, this iconic waterfront property offers spacious suites with modern amenities, fine dining restaurants, and an inviting infinity pool overlooking the Straits of Malacca. Renowned for its impeccable service and rich heritage, the hotel provides a unique blend of old-world sophistication and contemporary comfort, making it a perfect destination for both leisure and business travelers."
         },
         "bayview-hotel": {
-            title: "槟城湾景酒店",
+            title: "Bayview-hotel",
             image: "/images/bayview-hotel.jpg",
-            description: "俯瞰槟城湾的美丽景色，提供豪华的住宿和各种娱乐设施。"
+            description: "Bayview Hotel, situated in the heart of George Town, Penang, offers a comfortable and affordable stay with easy access to the city's UNESCO World Heritage sites, shopping, and dining. The hotel features well-appointed rooms, a rooftop restaurant with panoramic views, and a range of facilities including a swimming pool and fitness center. With its central location and friendly service, Bayview Hotel is an ideal choice for travelers seeking convenience and value during their visit to Penang."
         },
         "hilton-doubletree-resort": {
-            title: "希尔顿逸林酒店",
+            title: "Hilton-doubletree-resort",
             image: "/images/hilton-doubleTree-resort.jpg",
-            description: "现代化的商务酒店，提供便利的设施和优质的服务。"
+            description: "Hilton DoubleTree Resort, located along the tranquil Batu Ferringhi Beach in Penang, offers a perfect blend of modern comfort and scenic beauty. The resort features stylish rooms and suites, many with private balconies overlooking the sea or lush gardens. Guests can enjoy a variety of dining options, a lagoon-style swimming pool, and family-friendly amenities, including a kids' club and direct beach access. Renowned for its warm hospitality and signature DoubleTree cookies upon arrival, the resort provides a relaxing and memorable escape for both leisure and business travelers."
         },
         "george-hotel": {
-            title: "乔治酒店",
+            title: "George-hotel",
             image: "/images/george-hotel.jpg",
-            description: "充满历史感的酒店，位于乔治市中心，便于探索槟城的文化和历史。"
+            description: "George Hotel, located in the vibrant heart of George Town, Penang, offers a modern and comfortable retreat for travelers exploring the city's UNESCO World Heritage sites. The hotel features stylishly designed rooms equipped with essential amenities, a rooftop pool with city views, and a cozy café serving local and international dishes. With its central location, friendly service, and easy access to cultural landmarks, shopping, and dining, George Hotel is an excellent choice for both leisure and business visitors seeking convenience and value."
         },
         "macalister-mansion": {
-            title: "麦卡利斯特庄园酒店",
+            title: "Macalister-mansion",
             image: "/images/macalister-mansion.jpg",
-            description: "优雅的庄园酒店，提供独特的住宿体验和豪华的设施。"
+            description: "Macalister Mansion, located in the heart of George Town, Penang, is a unique and luxurious boutique hotel that seamlessly blends heritage charm with contemporary design. Set in a restored colonial mansion, the hotel features individually themed suites, a fine dining restaurant, an intimate wine lounge, and a stylish outdoor pool. With its personalized service, artistic ambiance, and central location, Macalister Mansion offers an exclusive and memorable stay for guests seeking sophistication and a touch of Penang’s rich history."
         }
     };
 
@@ -49,7 +49,7 @@ const HotelDetails = () => {
                     <p>{hotel.description}</p>
                 </div>
             ) : (
-                <p>未找到相关酒店信息。</p>
+                <p>No relevant hotel information found.</p>
             )}
         </div>
     );
