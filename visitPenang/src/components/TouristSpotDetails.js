@@ -25,7 +25,9 @@ const TouristSpotDetails = () => {
                 "\n" +
                 "\n" +
                 "\n" +
-                "\n"
+                "\n",
+            mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31808.123456789!2d100.2767!3d5.4353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b0f0f0f0f0%3A0x123456789abcdef!2sPenang%20Hill!5e0!3m2!1sen!2smy!4v1735934246075!5m2!1sen!2smy"
+
         },
         "george-town": {
             title: "George-town",
@@ -42,7 +44,8 @@ const TouristSpotDetails = () => {
                 "\n" +
                 "Economy: Historically a trading port, George Town today has a diversified economy with tourism as a major economic driver. However, the city is also emerging as a hub for education, finance, and technology in the region, underscored by initiatives like the Penang Digital Library that push towards modernization and digital industries.\n" +
                 "\n" +
-                "George Town expertly combines the charm of its colonial past with the vibrancy of modern urban living, making it a unique and dynamic city to visit or reside in."
+                "George Town expertly combines the charm of its colonial past with the vibrancy of modern urban living, making it a unique and dynamic city to visit or reside in.",
+            mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31808.123456789!2d100.3292!3d5.4145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b0f0f0f0f0%3A0xabcdef123456789!2sGeorge%20Town!5e0!3m2!1sen!2smy!4v1735934246075!5m2!1sen!2smy"
         },
         "kek-lok-si": {
             title: "Kek Lok Si",
@@ -63,7 +66,9 @@ const TouristSpotDetails = () => {
                 "\n" +
                 "\n" +
                 "\n" +
-                "\n"
+                "\n",
+            mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31808.123456789!2d100.2725!3d5.4018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b0f0f0f0f0%3A0xabcdefabcdef1234!2sKek%20Lok%20Si%20Temple!5e0!3m2!1sen!2smy!4v1735934246075!5m2!1sen!2smy"
+
         },
         "nyonya-museum": {
             title: "Nyonya-museum",
@@ -78,7 +83,8 @@ const TouristSpotDetails = () => {
                 "\n" +
                 "Cultural Impact: The museum not only serves as a center for cultural preservation but also plays a crucial role in educating both locals and tourists about the significant contributions of the Peranakan community to the cultural mosaic of Malaysia. It's a place where history is both displayed and lived, with occasional cultural performances and even themed dinners that allow visitors to experience Peranakan culture first-hand.\n" +
                 "\n" +
-                "The Pinang Peranakan Mansion is a captivating cultural institution that not only preserves but also celebrates the Peranakan heritage, making it a must-visit for anyone interested in the history and culture of Penang. It exemplifies how the Peranakans have shaped, and been shaped by, the Southeast Asian region."
+                "The Pinang Peranakan Mansion is a captivating cultural institution that not only preserves but also celebrates the Peranakan heritage, making it a must-visit for anyone interested in the history and culture of Penang. It exemplifies how the Peranakans have shaped, and been shaped by, the Southeast Asian region.",
+                mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31808.123456789!2d100.3364!3d5.4145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b0f0f0f0f0%3A0xabcdefabcdef5678!2sPinang%20Peranakan%20Mansion!5e0!3m2!1sen!2smy!4v1735934246075!5m2!1sen!2smy"
         },
         "chew-jetty": {
             title: "chew-jetty",
@@ -95,7 +101,9 @@ const TouristSpotDetails = () => {
                 "\n" +
                 "Preservation Efforts: Recognized as part of the George Town UNESCO World Heritage Site, efforts have been made to preserve the authentic character of Chew Jetty while accommodating the needs of its residents and the influx of tourists. This delicate balance aims to protect the historical integrity of the site while allowing it to thrive as a living community.\n" +
                 "\n" +
-                "Chew Jetty is a testament to the enduring cultural traditions and communal lifestyle of the Chinese diaspora in Southeast Asia, making it a captivating stop for those exploring the rich tapestry of Penang’s multicultural history."
+                "Chew Jetty is a testament to the enduring cultural traditions and communal lifestyle of the Chinese diaspora in Southeast Asia, making it a captivating stop for those exploring the rich tapestry of Penang’s multicultural history.",
+                mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31808.123456789!2d100.3456!3d5.4123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b0f0f0f0f0%3A0xabcdefabcdef5678!2sChew%20Jetty!5e0!3m2!1sen!2smy!4v1735934246075!5m2!1sen!2smy"
+
         },
         "batu-feringgi": {
             title: "Batu Ferringhi",
@@ -114,7 +122,8 @@ const TouristSpotDetails = () => {
                 "\n" +
                 "Accessibility and Connectivity: Batu Ferringhi is easily accessible from George Town, the capital of Penang, by road. Public buses, taxis, and rideshare services provide convenient transport options for getting to and from Batu Ferringhi, making it easy for tourists to explore other parts of the island as well.\n" +
                 "\n" +
-                "In summary, Batu Ferringhi offers a perfect blend of natural beauty, cultural diversity, and tourist-friendly amenities, making it an essential part of the Penang experience for travelers seeking both relaxation and adventure."
+                "In summary, Batu Ferringhi offers a perfect blend of natural beauty, cultural diversity, and tourist-friendly amenities, making it an essential part of the Penang experience for travelers seeking both relaxation and adventure.",
+            mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31808.123456789!2d100.2705!3d5.4645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b0f0f0f0f0%3A0xabcdefabcdef5678!2sBatu%20Ferringhi!5e0!3m2!1sen!2smy!4v1735934246075!5m2!1sen!2smy"
         }
     };
 
@@ -127,6 +136,17 @@ const TouristSpotDetails = () => {
                     <h2>{spot.title}</h2>
                     <img src={spot.image} alt={spot.title} />
                     <p>{spot.description}</p>
+                    <div className="map-container">
+                        <iframe
+                            src={spot.mapEmbedUrl}
+                            width="600"
+                            height="450"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
                 </div>
             ) : (
                 <p>No relevant tourist attraction information found.</p>

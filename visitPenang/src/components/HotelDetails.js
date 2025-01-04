@@ -1,41 +1,53 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import "./HotelDetails.css";  // 引入CSS文件
+import "./HotelDetails.css"; // 引入CSS文件
 
 const HotelDetails = () => {
     const { hotelId } = useParams();
 
     const hotelDetails = {
         "shangri-la-rasa-sayang": {
-            title: "Shangri-la-rasa-sayang",
+            title: "Shangri-La Rasa Sayang Resort & Spa",
             image: "/images/shangri-la-hotel.jpg",
-            description: "Shangri-La Rasa Sayang Resort & Spa, located on Batu Ferringhi Beach in Penang, Malaysia, is a luxurious five-star resort that blends modern elegance with traditional Malay architecture. Surrounded by lush tropical gardens, the resort offers spacious and comfortable accommodations, world-class dining options, a luxurious spa, and an infinity pool. Whether for a family getaway or a romantic retreat, the resort provides guests with an unforgettable experience through its impeccable service and stunning beachfront setting."
+            description: "Shangri-La Rasa Sayang Resort & Spa, located on Batu Ferringhi Beach in Penang, Malaysia, is a luxurious five-star resort that blends modern elegance with traditional Malay architecture.",
+            address: "Batu Ferringhi Beach, 11100 Batu Ferringhi, Penang, Malaysia",
+            mapLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.5956418420187!2d100.25103267544526!3d5.478133494501591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304add523e0df915%3A0xc0160e34a07074fc!2sShangri-La's%20Rasa%20Sayang%20Resort%20%26%20Spa!5e0!3m2!1sen!2smy!4v1735934246075!5m2!1sen!2smy"
         },
         "eastern-and-oriental-hotel": {
-            title: "Eastern-and-oriental-hotel",
+            title: "Eastern & Oriental Hotel",
             image: "/images/eastern-and-oriental-hotel.jpg",
-            description: "The Eastern & Oriental Hotel, located in the heart of George Town, Penang, is a historic luxury hotel that embodies timeless elegance and colonial charm. Established in 1885, this iconic waterfront property offers spacious suites with modern amenities, fine dining restaurants, and an inviting infinity pool overlooking the Straits of Malacca. Renowned for its impeccable service and rich heritage, the hotel provides a unique blend of old-world sophistication and contemporary comfort, making it a perfect destination for both leisure and business travelers."
+            description: "The Eastern & Oriental Hotel, located in the heart of George Town, Penang, is a historic luxury hotel that embodies timeless elegance and colonial charm.",
+            address: "10, Lebuh Farquhar, 10200 George Town, Penang, Malaysia",
+            mapLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.253702919874!2d100.33333331447691!3d5.420240394960002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac4043fa5e4e9%3A0xe92646456a4d1e42!2sEastern%20and%20Oriental%20Hotel!5e0!3m2!1sen!2smy!4v1690021951626!5m2!1sen!2smy"
         },
         "bayview-hotel": {
-            title: "Bayview-hotel",
+            title: "Bayview Hotel Georgetown Penang",
             image: "/images/bayview-hotel.jpg",
-            description: "Bayview Hotel, situated in the heart of George Town, Penang, offers a comfortable and affordable stay with easy access to the city's UNESCO World Heritage sites, shopping, and dining. The hotel features well-appointed rooms, a rooftop restaurant with panoramic views, and a range of facilities including a swimming pool and fitness center. With its central location and friendly service, Bayview Hotel is an ideal choice for travelers seeking convenience and value during their visit to Penang."
+            description: "Bayview Hotel, situated in the heart of George Town, Penang, offers a comfortable and affordable stay with easy access to the city's UNESCO World Heritage sites.",
+            address: "25-A Farquhar Street, 10200 George Town, Penang, Malaysia",
+            mapLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.333333919874!2d100.33333331447691!3d5.420240394960002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac4043fa5e4e9%3A0xe92646456a4d1e42!2sBayview%20Hotel!5e0!3m2!1sen!2smy!4v1690021951626!5m2!1sen!2smy"
         },
         "hilton-doubletree-resort": {
-            title: "Hilton-doubletree-resort",
-            image: "/images/hilton-doubleTree-resort.jpg",
-            description: "Hilton DoubleTree Resort, located along the tranquil Batu Ferringhi Beach in Penang, offers a perfect blend of modern comfort and scenic beauty. The resort features stylish rooms and suites, many with private balconies overlooking the sea or lush gardens. Guests can enjoy a variety of dining options, a lagoon-style swimming pool, and family-friendly amenities, including a kids' club and direct beach access. Renowned for its warm hospitality and signature DoubleTree cookies upon arrival, the resort provides a relaxing and memorable escape for both leisure and business travelers."
+            title: "DoubleTree Resort by Hilton Penang",
+            image: "/images/hilton-doubletree-resort.jpg",
+            description: "Hilton DoubleTree Resort, located along the tranquil Batu Ferringhi Beach in Penang, offers a perfect blend of modern comfort and scenic beauty.",
+            address: "56 Jalan Low Yat, 11100 Batu Ferringhi, Penang, Malaysia",
+            mapLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.333333919874!2d100.33333331447691!3d5.420240394960002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac4043fa5e4e9%3A0xe92646456a4d1e42!2sDoubleTree%20Hotel!5e0!3m2!1sen!2smy!4v1690021951626!5m2!1sen!2smy"
         },
         "george-hotel": {
-            title: "George-hotel",
+            title: "The George Hotel",
             image: "/images/george-hotel.jpg",
-            description: "George Hotel, located in the vibrant heart of George Town, Penang, offers a modern and comfortable retreat for travelers exploring the city's UNESCO World Heritage sites. The hotel features stylishly designed rooms equipped with essential amenities, a rooftop pool with city views, and a cozy café serving local and international dishes. With its central location, friendly service, and easy access to cultural landmarks, shopping, and dining, George Hotel is an excellent choice for both leisure and business visitors seeking convenience and value."
+            description: "George Hotel, located in the vibrant heart of George Town, Penang, offers a modern and comfortable retreat for travelers.",
+            address: "38 Jalan Magazine, 10300 George Town, Penang, Malaysia",
+            mapLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.333333919874!2d100.33333331447691!3d5.420240394960002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac4043fa5e4e9%3A0xe92646456a4d1e42!2sGeorge%20Hotel!5e0!3m2!1sen!2smy!4v1690021951626!5m2!1sen!2smy"
         },
         "macalister-mansion": {
-            title: "Macalister-mansion",
+            title: "Macalister Mansion",
             image: "/images/macalister-mansion.jpg",
-            description: "Macalister Mansion, located in the heart of George Town, Penang, is a unique and luxurious boutique hotel that seamlessly blends heritage charm with contemporary design. Set in a restored colonial mansion, the hotel features individually themed suites, a fine dining restaurant, an intimate wine lounge, and a stylish outdoor pool. With its personalized service, artistic ambiance, and central location, Macalister Mansion offers an exclusive and memorable stay for guests seeking sophistication and a touch of Penang’s rich history."
-        }
+            description: "Macalister Mansion, located in the heart of George Town, Penang, is a unique and luxurious boutique hotel that seamlessly blends heritage charm with contemporary design.",
+            address: "228, Jalan Macalister, 10400 George Town, Penang, Malaysia",
+            mapLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.253702919874!2d100.32522001447691!3d5.420240394960002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac403eaf37e7f%3A0x22e6a57bfa06a47c!2sMacalister%20Mansion!5e0!3m2!1sen!2smy!4v1690021951626!5m2!1sen!2smy"
+        },
     };
 
     const hotel = hotelDetails[hotelId];
@@ -47,6 +59,18 @@ const HotelDetails = () => {
                     <h2>{hotel.title}</h2>
                     <img src={hotel.image} alt={hotel.title} />
                     <p>{hotel.description}</p>
+                    <p><strong>Address:</strong> {hotel.address}</p>
+                    <div className="map-container">
+                        <iframe
+                            src={hotel.mapLink}
+                            width="600"
+                            height="450"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
                 </div>
             ) : (
                 <p>No relevant hotel information found.</p>
