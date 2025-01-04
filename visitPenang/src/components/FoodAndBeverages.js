@@ -8,37 +8,37 @@ const FoodAndBeverages = ({ filter }) => {
             id: "asam-laksa",
             title: "asam-laksa",
             description: "Penang Laksa is a vibrant and tangy fish-based noodle soup, celebrated for its rich, spicy broth.",
-            image: "/images/penang-laksa.jpg"
+            image: `${process.env.PUBLIC_URL}/images/penang-laksa.jpg`
         },
         {
             id: "char-kway-teow",
             title: "char-kway-teow",
             description: "Fried kuey teow is a classic street food in Penang, a perfect blend of rice noodles, egg and prawns.",
-            image: "/images/char-kway-teow.jpg"
+            image: `${process.env.PUBLIC_URL}/images/char-kway-teow.jpg`
         },
         {
             id: "nasi-lemak",
             title: "nasi-lemak",
             description: "Coconut rice is a traditional Malaysian dish served with flavourful coconut milk and side dishes.",
-            image: "/images/nasi-lemak.jpg"
+            image: `${process.env.PUBLIC_URL}/images/nasi-lemak.jpg`
         },
         {
             id: "teochew-cendol",
             title: "teochew-cendol",
             description: "This traditional snack is based on rice vermicelli with a rich soup base.",
-            image: "/images/teochew-cendol.jpg"
+            image: `${process.env.PUBLIC_URL}/images/teochew-cendol.jpg`
         },
         {
             id: "curry-noodles",
             title: "curry-noodles",
             description: "Penang's curry noodles are a must-try delicacy, with the spicy curry complementing the smooth and tender noodles.",
-            image: "/images/curry-noodles.jpg"
+            image: `${process.env.PUBLIC_URL}/images/curry-noodles.jpg`
         },
         {
             id: "teh-tarik",
             title: "teh-tarik",
             description: "Penang's laksa has a unique flavour, a perfect combination of milk and tea, warming the stomach and quenching the thirst.",
-            image: "/images/teh-tarik.jpg"
+            image: `${process.env.PUBLIC_URL}/images/teh-tarik.jpg`
         }
     ];
 

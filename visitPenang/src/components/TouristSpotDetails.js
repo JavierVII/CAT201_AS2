@@ -8,7 +8,7 @@ const TouristSpotDetails = () => {
     const spotDetails = {
         "penang-hill": {
             title: "Penang Hill",
-            image: "/images/penang-hill.jpg",
+            image: `${process.env.PUBLIC_URL}/images/penang-hill.jpg`,
             description: "Penang Hill, locally known as Bukit Bendera, is one of the most popular attractions in Penang, Malaysia. Situated about 6 kilometers from the city center of George Town, it stands as a colonial hill station established by the British during their time in Malaysia. Rising 833 meters above sea level, it offers a refreshing getaway with cooler temperatures compared to the city below.\n" +
                 "\n" +
                 "The hill is accessible via the Penang Hill Railway, a funicular system that climbs the hill from Air Itam. This railway, one of the oldest in Asia, provides a scenic ride to the summit in about five to ten minutes, depending on the train's speed. At the top, visitors are treated to breathtaking panoramic views of George Town, the east coast of Penang Island, and even parts of the mainland on clear days.\n" +
@@ -31,7 +31,7 @@ const TouristSpotDetails = () => {
         },
         "george-town": {
             title: "George-town",
-            image: "/images/george-town.jpg",
+            image: `${process.env.PUBLIC_URL}/images/george-town.jpg`,
             description: "George Town, the capital city of the Malaysian state of Penang, is one of the most interesting and vibrant cities in Southeast Asia. Founded in 1786 by British trader Francis Light, it's renowned for its rich history, well-preserved colonial architecture, and a multicultural population predominantly consisting of Chinese, Malay, and Indian communities.\n" +
                 "\n" +
                 "Historical Significance: George Town was one of the first British settlements in Southeast Asia and played a significant role in the spread of British colonial influence in the region. Named after King George III of Britain, it became a bustling port that attracted traders from around the world, contributing to its diverse cultural heritage.\n" +
@@ -49,7 +49,7 @@ const TouristSpotDetails = () => {
         },
         "kek-lok-si": {
             title: "Kek Lok Si",
-            image: "/images/kek-lok-si-temple.jpg",
+            image: `${process.env.PUBLIC_URL}/images/kek-lok-si-temple.jpg`,
             description: "Kek Lok Si Temple, located in Air Itam, Penang, stands as one of the largest and most significant Buddhist temples in Southeast Asia. Founded in 1890 by the devout Chinese Buddhist, Beow Lean, the temple began as a modest monastery on a hilltop overlooking George Town and has since expanded into a sprawling complex of prayer halls, pavilions, and bell towers.\n" +
                 "\n" +
                 "Architectural Splendor: Kek Lok Si is renowned for its stunning architecture, which blends Chinese, Thai, and Burmese design elements, reflecting the pan-Asian spirit of Buddhism in the region. The temple is dominated by the towering Pagoda of Ten Thousand Buddhas, a seven-tiered structure that combines a Chinese octagonal base with a middle tier of Thai design, and a Burmese crown, symbolizing the harmony among different Buddhist cultural influences.\n" +
@@ -72,7 +72,7 @@ const TouristSpotDetails = () => {
         },
         "nyonya-museum": {
             title: "Nyonya-museum",
-            image: "/images/nyonya-museum.jpg",
+            image: `${process.env.PUBLIC_URL}/images/nyonya-museum.jpg`,
             description: "The Pinang Peranakan Mansion, often referred to as the Nyonya Museum, is a vibrant showcase of the culture and heritage of the Peranakan, or Straits Chinese, community of Penang. Housed in a restored mansion that once belonged to a wealthy Peranakan merchant, this museum in George Town is both a tribute to and a preservation site for the unique fusion of Chinese, Malay, and colonial influences that define the Peranakan lifestyle.\n" +
                 "\n" +
                 "Historical Background: The mansion itself is a splendid example of 19th-century architecture, featuring the eclecticism typical of the colonial era but with a distinct Peranakan flair. The building is adorned with intricate carvings, gilded woodwork, and hand-painted tiles, all hallmarks of the affluent homes of Peranakan families of the time.\n" +
@@ -84,11 +84,11 @@ const TouristSpotDetails = () => {
                 "Cultural Impact: The museum not only serves as a center for cultural preservation but also plays a crucial role in educating both locals and tourists about the significant contributions of the Peranakan community to the cultural mosaic of Malaysia. It's a place where history is both displayed and lived, with occasional cultural performances and even themed dinners that allow visitors to experience Peranakan culture first-hand.\n" +
                 "\n" +
                 "The Pinang Peranakan Mansion is a captivating cultural institution that not only preserves but also celebrates the Peranakan heritage, making it a must-visit for anyone interested in the history and culture of Penang. It exemplifies how the Peranakans have shaped, and been shaped by, the Southeast Asian region.",
-                mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31808.123456789!2d100.3364!3d5.4145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b0f0f0f0f0%3A0xabcdefabcdef5678!2sPinang%20Peranakan%20Mansion!5e0!3m2!1sen!2smy!4v1735934246075!5m2!1sen!2smy"
+            mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31808.123456789!2d100.3364!3d5.4145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b0f0f0f0f0%3A0xabcdefabcdef5678!2sPinang%20Peranakan%20Mansion!5e0!3m2!1sen!2smy!4v1735934246075!5m2!1sen!2smy"
         },
         "chew-jetty": {
             title: "chew-jetty",
-            image: "/images/chew-jetty.jpg",
+            image: `${process.env.PUBLIC_URL}/images/chew-jetty.jpg`,
             description: "Chew Jetty, part of the Clan Jetties of George Town, is a unique historical site that offers a glimpse into the lives of Chinese settlers in Penang. It's one of several waterfront settlements established by Chinese immigrants in the late 19th century and is named after the Chew clan, who were among the first to build homes on stilts along the Penang shoreline.\n" +
                 "\n" +
                 "Historical Significance: The jetties were initially established as a part of George Town's bustling port, providing easy access for loading and unloading goods. Over time, these jetties transformed into close-knit residential communities. Chew Jetty, in particular, has become notable for its well-preserved wooden houses and rustic, over-water walkways.\n" +
@@ -102,12 +102,12 @@ const TouristSpotDetails = () => {
                 "Preservation Efforts: Recognized as part of the George Town UNESCO World Heritage Site, efforts have been made to preserve the authentic character of Chew Jetty while accommodating the needs of its residents and the influx of tourists. This delicate balance aims to protect the historical integrity of the site while allowing it to thrive as a living community.\n" +
                 "\n" +
                 "Chew Jetty is a testament to the enduring cultural traditions and communal lifestyle of the Chinese diaspora in Southeast Asia, making it a captivating stop for those exploring the rich tapestry of Penang’s multicultural history.",
-                mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31808.123456789!2d100.3456!3d5.4123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b0f0f0f0f0%3A0xabcdefabcdef5678!2sChew%20Jetty!5e0!3m2!1sen!2smy!4v1735934246075!5m2!1sen!2smy"
+            mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31808.123456789!2d100.3456!3d5.4123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b0f0f0f0f0%3A0xabcdefabcdef5678!2sChew%20Jetty!5e0!3m2!1sen!2smy!4v1735934246075!5m2!1sen!2smy"
 
         },
         "batu-feringgi": {
             title: "Batu Ferringhi",
-            image: "/images/batu-feringgi.jpg",
+            image: `${process.env.PUBLIC_URL}/images/batu-feringgi.jpg`,
             description: "Batu Ferringhi is a popular beach destination located along the northern coast of Penang Island, Malaysia. Known for its long stretch of soft, sandy beach and vibrant night market, Batu Ferringhi offers a combination of scenic natural beauty and lively tourist activity, making it one of Penang’s most beloved spots for both relaxation and entertainment.\n" +
                 "\n" +
                 "Scenic Beauty: Batu Ferringhi is renowned for its stunning coastline that features miles of golden sand against a backdrop of lush green hills. The beach is ideal for a variety of water sports, including parasailing, jet skiing, and windsurfing, or simply for basking in the sun and enjoying the gentle sea breeze.\n" +

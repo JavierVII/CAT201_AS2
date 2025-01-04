@@ -8,37 +8,37 @@ const Hotels = ({ filter }) => {
             id: "shangri-la-rasa-sayang",
             title: "shangri-la-rasa-sayang",
             description: "A luxurious resort offering tranquility and comfort.",
-            image: "/images/shangri-la-hotel.jpg"
+            image: `${process.env.PUBLIC_URL}/images/shangri-la-hotel.jpg`
         },
         {
             id: "eastern-and-oriental-hotel",
             title: "Eastern & Oriental Hotel,",
             description:"A historic hotel that blends modernity with tradition.",
-            image: "/images/eastern-and-oriental-hotel.jpg"
+            image: `${process.env.PUBLIC_URL}/images/eastern-and-oriental-hotel.jpg`
         },
         {
             id: "bayview-hotel",
             title: "Bayview Hotel",
             description: "Overlooking the stunning views of Penang Bay, offering a luxurious stay experience.",
-            image: "/images/bayview-hotel.jpg"
+            image: `${process.env.PUBLIC_URL}/images/bayview-hotel.jpg`
         },
         {
             id: "hilton-doubletree-resort",
             title: "Hilton-doubletree-resort",
             description: "A modern business hotel offering convenient amenities.",
-            image: "/images/hilton-doubletree-resort.jpg"
+            image: `${process.env.PUBLIC_URL}/images/hilton-doubletree-resort.jpg`
         },
         {
             id: "george-hotel",
             title: "George Hotel",
             description: "A historic hotel located in the heart of George Town.",
-            image: "/images/george-hotel.jpg"
+            image: `${process.env.PUBLIC_URL}/images/george-hotel.jpg`
         },
         {
             id: "macalister-mansion",
             title: "McAllister Manor Hotel",
             description: "An elegant manor hotel, offering a unique lodging experience.",
-            image: "/images/macalister-mansion.jpg"
+            image: `${process.env.PUBLIC_URL}/images/macalister-mansion.jpg`
         }
     ];
 

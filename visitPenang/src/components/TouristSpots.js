@@ -8,37 +8,37 @@ const TouristSpots = ({ filter }) => {
             id: "penang-hill",
             title: "Penang Hill",
             description: "Enjoy the panoramic views of Penang, and experience its rich history and natural landscapes.",
-            image: "/images/penang-hill.jpg"
+            image: `${process.env.PUBLIC_URL}/images/penang-hill.jpg`
         },
         {
             id: "george-town",
             title: "George Town",
             description: "Explore Penang's cultural heritage zone and admire the beautiful street art.",
-            image: "/images/george-town.jpg"
+            image: `${process.env.PUBLIC_URL}/images/george-town.jpg`
         },
         {
             id: "kek-lok-si",
             title: "kek-lok-si",
             description: "Visit one of Penang's most famous Buddhist temples and enjoy the tranquil atmosphere.",
-            image: "/images/kek-lok-si-temple.jpg"
+            image: `${process.env.PUBLIC_URL}/images/kek-lok-si-temple.jpg`
         },
         {
             id: "nyonya-museum",
             title: "nyonya-museum",
             description: "Learn about Penang's unique Peranakan culture and history.",
-            image: "/images/nyonya-museum.jpg"
+            image: `${process.env.PUBLIC_URL}/images/nyonya-museum.jpg`
         },
         {
             id: "chew-jetty",
             title: "chew-jetty",
             description: "Experience the traditional life of Penang's water village with wooden stilt houses.",
-            image: "/images/chew-jetty.jpg"
+            image: `${process.env.PUBLIC_URL}/images/chew-jetty.jpg`
         },
         {
             id: "batu-feringgi",
             title: "Batu Ferringhi",
             description: "Relax and unwind at one of Penang's most famous beaches.",
-            image: "/images/batu-feringgi.jpg"
+            image: `${process.env.PUBLIC_URL}/images/batu-feringgi.jpg`
         }
     ];
 

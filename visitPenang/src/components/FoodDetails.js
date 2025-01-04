@@ -8,7 +8,7 @@ const FoodDetails = () => {
     const foodDetails = {
         "asam-laksa": {
             title: "asam-laksa",
-            image: "/images/penang-laksa.jpg",
+            image: `${process.env.PUBLIC_URL}/images/penang-laksa.jpg`,
             description: "Penang Laksa is a traditional Malaysian dish originating from Penang. It is a popular noodle soup known for its distinctive tangy and spicy fish-based broth. The broth is made with a variety of spices and fresh fish, featuring ingredients such as chili, ginger, lemongrass, galangal, and kaffir lime leaves.\n" +
                 "\n" +
                 "The noodles used in Penang Laksa are typically thin rice noodles, sometimes mixed with yellow noodles. The dish is garnished with fresh fish slices, chili, cucumber, onion, water spinach, and cilantro, topped with a dollop of shrimp paste to enhance the flavor. The unique combination of sour, spicy, and aromatic elements along with the freshness of the fish creates a stimulating and layered taste experience.\n" +
@@ -17,7 +17,7 @@ const FoodDetails = () => {
         },
         "char-kway-teow": {
             title: "char-kway-teow",
-            image: "/images/char-kway-teow.jpg",
+            image: `${process.env.PUBLIC_URL}/images/char-kway-teow.jpg`,
             description: "Penang Char Kway Teow is a famous street food from Penang, Malaysia, beloved by locals and tourists alike. Known for its unique aroma and texture, this dish is primarily made from flat rice noodles (kway teow) stir-fried with eggs, shrimp, bean sprouts, chives, and various other ingredients. The distinctiveness of Penang Char Kway Teow lies in its seasoning, which typically includes a copious amount of garlic, chili, sweet soy sauce (a sweet Malaysian soy sauce), fish sauce, and shrimp paste, creating a mouthwatering sauce.\n" +
                 "\n" +
                 "During cooking, chefs typically stir-fry the ingredients quickly over high heat, which imparts a slightly charred flavor to the noodles, a technique known as \"wok hei\" or the breath of the wok, adding a special smoky nuance. The finished dish usually has a dark color, a sweet taste profile with subtle hints of spiciness and umami.\n" +
@@ -26,7 +26,7 @@ const FoodDetails = () => {
         },
         "nasi-lemak": {
             title: "nasi-lemak",
-            image: "/images/nasi-lemak.jpg",
+            image: `${process.env.PUBLIC_URL}/images/nasi-lemak.jpg`,
             description: "Penang Nasi Lemak is a beloved Malaysian dish, often enjoyed as a hearty breakfast or satisfying meal at any time of the day. This iconic dish is celebrated for its rich and aromatic flavors, which are achieved by cooking rice in coconut milk, infusing it with a creamy texture and fragrant coconut aroma. It's typically served with a variety of side dishes that complement the rice perfectly.\n" +
                 "\n" +
                 "The essential components of Penang Nasi Lemak include the fragrant coconut rice, crispy anchovies, roasted peanuts, hard-boiled or fried egg, slices of cucumber, and a spicy chili paste known as 'sambal'. This sambal, made from a blend of chili peppers, shrimp paste, garlic, and other ingredients, is the heart of the dish, offering a fiery kick that contrasts with the richness of the coconut rice.\n" +
@@ -35,7 +35,7 @@ const FoodDetails = () => {
         },
         "teochew-cendol": {
             title: "Penang Chaozhou Jian Dui ",
-            image: "/images/teochew-cendol.jpg",
+            image: `${process.env.PUBLIC_URL}/images/teochew-cendol.jpg`,
             description: "Penang Chaozhou Jian Dui (Teochew Jian Dui) is a popular snack in Penang, Malaysia, originating from the Teochew cuisine of the Chinese community. Jian Dui, also known as sesame balls, is a deep-fried pastry made from glutinous rice flour, coated with sesame seeds on the outside, and commonly filled with a sweet paste.\n" +
                 "\n" +
                 "In Penang, the Chaozhou Jian Dui stands out because of its traditional preparation and filling choices. The most typical filling is sweetened red bean paste, but variations might include lotus seed paste or even a mix of crushed peanuts and sugar. The dough is shaped into balls, rolled in sesame seeds, and then deep-fried until they expand and the exterior turns golden and crispy. The result is a delightful contrast between the crunchy exterior and the soft, sweet interior.\n" +
@@ -44,7 +44,7 @@ const FoodDetails = () => {
         },
         "curry-noodles": {
             title: "curry-noodles",
-            image: "/images/curry-noodles.jpg",
+            image: `${process.env.PUBLIC_URL}/images/curry-noodles.jpg`,
             description: "Penang Curry Mee is a quintessential dish from Penang, Malaysia, celebrated for its complex and flavorful curry soup base. This noodly delight is a staple in Malaysian cuisine, particularly famous in Penang for its unique blend of spices that create a rich and creamy broth.\n" +
                 "\n" +
                 "The base of Penang Curry Mee consists of a coconut milk curry soup, which is aromatic and mildly spicy, infused with spices like lemongrass, galangal, shallots, and garlic. Chili paste is often added into the soup to enhance its depth of flavor and heat. The noodles used in this dish are usually a combination of yellow noodles and vermicelli, providing a satisfying mix of textures.\n" +
@@ -55,7 +55,7 @@ const FoodDetails = () => {
         },
         "teh-tarik": {
             title: "teh-tarik",
-            image: "/images/teh-tarik.jpg",
+            image: `${process.env.PUBLIC_URL}/images/teh-tarik.jpg`,
             description: "Penang Teh Tarik, commonly known as \"pulled tea,\" is a popular Malaysian beverage that has become a cultural icon in Penang and across Malaysia. This hot milk tea is celebrated for its dramatic preparation and deliciously creamy taste.\n" +
                 "\n" +
                 "Ingredients and Preparation: Teh Tarik combines strong black tea with condensed milk and sometimes sugar, which is vigorously \"pulled\" between two containers to mix the ingredients thoroughly and to create a light, frothy top. This pulling action, performed with skillful, often flamboyant arm movements, not only cools the tea down to a drinkable temperature but also enhances its flavor by aerating the mixture.\n" +
