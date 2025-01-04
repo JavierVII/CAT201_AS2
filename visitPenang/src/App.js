@@ -8,6 +8,7 @@ import Hotels from "./components/Hotels";
 import TouristSpotDetails from "./components/TouristSpotDetails";
 import FoodDetails from "./components/FoodDetails";
 import HotelDetails from "./components/HotelDetails";
+import ContactUs from "./components/ContactUs";
 import "./App.css";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                     <Route path="/tourist-spots/:spotId" element={<TouristSpotDetails />} />
                     <Route path="/food-and-beverages/:foodId" element={<FoodDetails />} />
                     <Route path="/hotels/:hotelId" element={<HotelDetails />} />
+                    <Route path="/contact-us" element={<ContactUs />} />
                 </Routes>
             </div>
         </Router>

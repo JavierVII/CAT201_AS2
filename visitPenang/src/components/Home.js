@@ -10,8 +10,8 @@ const Home = () => {
             <HeroSection />
             <main>
                 <section id="home">
-                    <h1>WELCOME TO PENANG</h1>
-                    <h1>Selamat datang ke Pulau Pinang</h1>
+                    <h1>𝐖E𝐋C𝐎M𝐄 𝐓O P𝐄N𝐀N𝐆</h1>
+                    <h1>𝓢𝓮𝓵𝓪𝓶𝓪𝓽 𝓭𝓪𝓽𝓪𝓷𝓰 𝓴𝓮 𝓟𝓾𝓵𝓪𝓾 𝓟𝓲𝓷𝓪𝓷𝓰</h1>
                 </section>
                 <section id="tourist-spots">
                     {/* 只显示指定的景点 */}

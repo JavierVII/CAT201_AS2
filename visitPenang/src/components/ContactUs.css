@@ -1,21 +1,120 @@
-.emergency-contacts {
-    margin-top: 30px;
+/* 整体布局样式 */
+.contact-us {
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
     background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* 标题样式 */
+.contact-us h2 {
+    text-align: center;
+    color: #6e30d8;
+    margin-bottom: 20px;
+}
+
+/* 描述文本样式 */
+.contact-us p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* 表单样式 */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #6e30d8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #6e30d8;
+}
+
+/* 紧急联系列表样式 */
+.emergency-contacts {
+    margin-top: 30px;
 }
 
 .emergency-contacts h2 {
-    color: #d9534f;
+    text-align: center;
+    color: #6e30d8;
+    margin-bottom: 20px;
 }
 
-.emergency-contacts ul {
-    list-style-type: none;
-    padding: 0;
+.contact-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
-.emergency-contacts li {
+.contact-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-card h3 {
     margin-bottom: 10px;
-    font-size: 16px;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.contact-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 响应式设计 */
+@media (min-width: 768px) {
+    .contact-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-us {
+        padding: 30px;
+    }
 }
